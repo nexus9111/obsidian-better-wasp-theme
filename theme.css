@@ -50,6 +50,7 @@
      :root hr {
          --hr-line-color: var(--hr-color);
          display: grid;
+         border-width: 2px;
          place-items: center;
          border-image-slice: 1;
          border-image-source: linear-gradient(to right,
